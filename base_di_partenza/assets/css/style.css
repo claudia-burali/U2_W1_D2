@@ -382,19 +382,28 @@ footer > button {
 .violet {
   color: #bb57da;
 }
-#btn_1 {
+.btn_1 {
   bottom: 110px;
 }
-#btn_2 {
+.btn_2 {
   bottom: 60px;
 }
-#btn_3 {
+.btn_3 {
   bottom: 10px;
 }
 
 @media screen and (min-width: 800px) {
   footer {
     padding: 1em 12em;
+  }
+  .btn_1 {
+    top: 50px;
+    bottom: auto;
+  }
+  .btn_2 {
+    top: 100px;
+    bottom: auto;
+    margin-top: 1em;
   }
 }
 
